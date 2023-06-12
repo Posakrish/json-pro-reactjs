@@ -1,0 +1,50 @@
+body{
+  /* background-color: rgb(209,204,204); */
+  background: linear-gradient(45deg,#00bcd4,#ffeb3b);
+  margin: 10px;
+}
+.templateContainer{
+  margin: 5% 0;
+}
+.searchInput_Container input:hover{
+  border-color: aqua;
+
+}
+
+.templateContainer > .searchInput_Container input{
+  width: 20%;
+  padding: 10px;
+  outline: none;
+  color:'aqua';
+ 
+  /* border-color: rgb(78, 202, 29); */
+}
+.templateContainer .template_Container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+   flex-wrap: wrap;
+   gap: 10px;
+
+}
+.templateContainer .template_Container .template{
+  background-color: rgb(57, 136, 132);
+  margin: 30px;
+  padding: 0px 20px;
+  position: relative;
+  /* width: 250px;
+  height: 300px; */
+  border-radius: 20px;
+  /* box-shadow: 0 35px 80px;  */
+  /* rgb(0,0,0,0.15) */
+}
+
+
+.templateContainer .template_Container .template img{
+  height: 200px;
+}
+
+.templateContainer .template_Container .template:hover{
+  transform: scale(1.05);
+  transition: all 1s ease-in-out;
+}
